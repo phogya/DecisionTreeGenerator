@@ -1,0 +1,822 @@
+Question#1#acuteAccentQ
+1#Contains acute accent
+Question#2#graveAccentQ
+2#Contains grave accent
+Question#3#eQ
+3#Contains "e"
+Output#Italian#Probability#1.0
+3#Does not contain "e"
+Question#4#averageWordLengthQ
+4#Less than 3
+Output#French#Probability#0.9901315789473685
+4#3
+Output#French#Probability#1.0
+4#4
+Output#French#Probability#1.0
+4#5
+Output#French#Probability#1.0
+4#6
+Question#5#nonQ
+5#Contains "non"
+Output#Italian#Probability#1.0
+5#Does not contain "non"
+Question#6#ilQ
+6#Contains "il"
+Question#7#circumflexAccentQ
+7#Contains circumflex accent
+Output#French#Probability#1.0
+7#Does not contain circumflex accent
+Output#Italian#Probability#1.0
+6#Does not contain "il"
+Output#French#Probability#0.9871794871794872
+4#7
+Output#French#Probability#1.0
+4#8
+Output#French#Probability#0.9901315789473685
+4#More than 8
+Output#French#Probability#0.9901315789473685
+2#Does not contain grave accent
+Question#3#elQ
+3#Contains "el"
+Output#Spanish#Probability#1.0
+3#Does not contain "el"
+Question#4#etQ
+4#Contains "et"
+Output#French#Probability#1.0
+4#Does not contain "et"
+Question#5#circumflexAccentQ
+5#Contains circumflex accent
+Output#French#Probability#1.0
+5#Does not contain circumflex accent
+Question#6#leQ
+6#Contains "le"
+Question#7#yQ
+7#Contains "y"
+Output#Spanish#Probability#1.0
+7#Does not contain "y"
+Question#8#laQ
+8#Contains "la"
+Question#9#deQ
+9#Contains "de"
+Output#French#Probability#1.0
+9#Does not contain "de"
+Question#10#averageWordLengthQ
+10#Less than 3
+Output#French#Probability#0.5384615384615384
+10#3
+Output#French#Probability#0.5384615384615384
+10#4
+Output#Spanish#Probability#1.0
+10#5
+Question#11#queQ
+11#Contains "que"
+Output#French#Probability#1.0
+11#Does not contain "que"
+Question#12#diQ
+12#Contains "di"
+Output#Italian#Probability#1.0
+12#Does not contain "di"
+Output#French#Probability#0.5
+10#6
+Output#French#Probability#1.0
+10#7
+Output#French#Probability#0.5384615384615384
+10#8
+Output#French#Probability#0.5384615384615384
+10#More than 8
+Output#French#Probability#0.5384615384615384
+8#Does not contain "la"
+Question#9#eQ
+9#Contains "e"
+Question#10#averageWordLengthQ
+10#Less than 3
+Output#Italian#Probability#0.5
+10#3
+Output#Italian#Probability#0.5
+10#4
+Output#Italian#Probability#0.5
+10#5
+Output#Spanish#Probability#1.0
+10#6
+Output#Italian#Probability#1.0
+10#7
+Output#Italian#Probability#0.5
+10#8
+Output#Italian#Probability#0.5
+10#More than 8
+Output#Italian#Probability#0.5
+9#Does not contain "e"
+Question#10#unQ
+10#Contains "un"
+Question#11#averageWordLengthQ
+11#Less than 3
+Output#French#Probability#0.9
+11#3
+Output#French#Probability#0.9
+11#4
+Question#12#deQ
+12#Contains "de"
+Output#French#Probability#1.0
+12#Does not contain "de"
+Output#Spanish#Probability#1.0
+11#5
+Output#French#Probability#1.0
+11#6
+Output#French#Probability#1.0
+11#7
+Output#French#Probability#0.9
+11#8
+Output#French#Probability#0.9
+11#More than 8
+Output#French#Probability#0.9
+10#Does not contain "un"
+Output#French#Probability#1.0
+6#Does not contain "le"
+Question#7#yQ
+7#Contains "y"
+Question#8#ilQ
+8#Contains "il"
+Output#French#Probability#1.0
+8#Does not contain "il"
+Output#Spanish#Probability#1.0
+7#Does not contain "y"
+Question#8#diQ
+8#Contains "di"
+Output#Italian#Probability#1.0
+8#Does not contain "di"
+Question#9#nonQ
+9#Contains "non"
+Output#Italian#Probability#1.0
+9#Does not contain "non"
+Question#10#duQ
+10#Contains "du"
+Output#French#Probability#1.0
+10#Does not contain "du"
+Question#11#cheQ
+11#Contains "che"
+Output#Italian#Probability#1.0
+11#Does not contain "che"
+Question#12#ilQ
+12#Contains "il"
+Question#13#averageWordLengthQ
+13#Less than 3
+Output#French#Probability#0.9090909090909091
+13#3
+Output#French#Probability#0.9090909090909091
+13#4
+Output#French#Probability#1.0
+13#5
+Output#French#Probability#1.0
+13#6
+Output#French#Probability#0.75
+13#7
+Output#French#Probability#0.9090909090909091
+13#8
+Output#French#Probability#0.9090909090909091
+13#More than 8
+Output#French#Probability#0.9090909090909091
+12#Does not contain "il"
+Output#Spanish#Probability#0.7551369863013698
+1#Does not contain acute accent
+Question#2#diaeresisAccentQ
+2#Contains diaeresis accent
+Question#3#deQ
+3#Contains "de"
+Output#Spanish#Probability#1.0
+3#Does not contain "de"
+Output#German#Probability#1.0
+2#Does not contain diaeresis accent
+Question#3#theQ
+3#Contains "the"
+Output#English#Probability#0.9842180774748924
+3#Does not contain "the"
+Question#4#deQ
+4#Contains "de"
+Question#5#elQ
+5#Contains "el"
+Output#Spanish#Probability#1.0
+5#Does not contain "el"
+Question#6#etQ
+6#Contains "et"
+Output#French#Probability#1.0
+6#Does not contain "et"
+Question#7#circumflexAccentQ
+7#Contains circumflex accent
+Output#French#Probability#1.0
+7#Does not contain circumflex accent
+Question#8#‡Q
+8#Contains "‡"
+Output#French#Probability#1.0
+8#Does not contain "‡"
+Question#9#leQ
+9#Contains "le"
+Question#10#averageWordLengthQ
+10#Less than 3
+Output#French#Probability#0.9354838709677419
+10#3
+Output#French#Probability#1.0
+10#4
+Question#11#yQ
+11#Contains "y"
+Output#Spanish#Probability#1.0
+11#Does not contain "y"
+Question#12#graveAccentQ
+12#Contains grave accent
+Output#French#Probability#1.0
+12#Does not contain grave accent
+Question#13#ilQ
+13#Contains "il"
+Output#French#Probability#1.0
+13#Does not contain "il"
+Question#14#unQ
+14#Contains "un"
+Output#French#Probability#1.0
+14#Does not contain "un"
+Output#French#Probability#0.75
+10#5
+Output#French#Probability#1.0
+10#6
+Output#French#Probability#1.0
+10#7
+Output#French#Probability#0.9354838709677419
+10#8
+Output#French#Probability#0.9354838709677419
+10#More than 8
+Output#French#Probability#0.9354838709677419
+9#Does not contain "le"
+Question#10#yQ
+10#Contains "y"
+Question#11#ilQ
+11#Contains "il"
+Output#French#Probability#1.0
+11#Does not contain "il"
+Question#12#averageWordLengthQ
+12#Less than 3
+Output#Spanish#Probability#0.9814814814814815
+12#3
+Output#Spanish#Probability#1.0
+12#4
+Question#13#queQ
+13#Contains "que"
+Output#Spanish#Probability#1.0
+13#Does not contain "que"
+Question#14#laQ
+14#Contains "la"
+Output#Spanish#Probability#1.0
+14#Does not contain "la"
+Question#15#ÒQ
+15#Contains "Ò"
+Output#Spanish#Probability#1.0
+15#Does not contain "Ò"
+Question#16#graveAccentQ
+16#Contains grave accent
+Output#Spanish#Probability#1.0
+16#Does not contain grave accent
+Output#Spanish#Probability#0.8
+12#5
+Output#Spanish#Probability#1.0
+12#6
+Output#Spanish#Probability#1.0
+12#7
+Output#Spanish#Probability#0.9814814814814815
+12#8
+Output#Spanish#Probability#0.9814814814814815
+12#More than 8
+Output#Spanish#Probability#0.9814814814814815
+10#Does not contain "y"
+Question#11#ilQ
+11#Contains "il"
+Output#French#Probability#1.0
+11#Does not contain "il"
+Question#12#ÒQ
+12#Contains "Ò"
+Output#Spanish#Probability#1.0
+12#Does not contain "Ò"
+Question#13#duQ
+13#Contains "du"
+Output#French#Probability#1.0
+13#Does not contain "du"
+Question#14#nonQ
+14#Contains "non"
+Output#French#Probability#1.0
+14#Does not contain "non"
+Output#Spanish#Probability#0.5958549222797928
+4#Does not contain "de"
+Question#5#diQ
+5#Contains "di"
+Output#Italian#Probability#1.0
+5#Does not contain "di"
+Question#6#etQ
+6#Contains "et"
+Output#French#Probability#1.0
+6#Does not contain "et"
+Question#7#cheQ
+7#Contains "che"
+Output#Italian#Probability#1.0
+7#Does not contain "che"
+Question#8#eQ
+8#Contains "e"
+Question#9#elQ
+9#Contains "el"
+Output#Spanish#Probability#1.0
+9#Does not contain "el"
+Question#10#queQ
+10#Contains "que"
+Output#Spanish#Probability#1.0
+10#Does not contain "que"
+Output#Italian#Probability#0.985981308411215
+8#Does not contain "e"
+Question#9#andQ
+9#Contains "and"
+Question#10#ofQ
+10#Contains "of"
+Question#11#averageWordLengthQ
+11#Less than 3
+Output#English#Probability#0.9454545454545454
+11#3
+Output#English#Probability#0.9454545454545454
+11#4
+Output#English#Probability#1.0
+11#5
+Question#12#toQ
+12#Contains "to"
+Output#English#Probability#1.0
+12#Does not contain "to"
+Output#English#Probability#0.9375
+11#6
+Output#English#Probability#0.9090909090909091
+11#7
+Question#12#toQ
+12#Contains "to"
+Output#English#Probability#0.5
+12#Does not contain "to"
+Output#English#Probability#1.0
+11#8
+Output#English#Probability#0.9454545454545454
+11#More than 8
+Output#English#Probability#0.9454545454545454
+10#Does not contain "of"
+Output#English#Probability#1.0
+9#Does not contain "and"
+Question#10#ofQ
+10#Contains "of"
+Output#English#Probability#1.0
+10#Does not contain "of"
+Question#11#toQ
+11#Contains "to"
+Output#English#Probability#0.9917355371900827
+11#Does not contain "to"
+Question#12#‡Q
+12#Contains "‡"
+Output#French#Probability#1.0
+12#Does not contain "‡"
+Question#13#elQ
+13#Contains "el"
+Output#Spanish#Probability#1.0
+13#Does not contain "el"
+Question#14#queQ
+14#Contains "que"
+Question#15#yQ
+15#Contains "y"
+Question#16#graveAccentQ
+16#Contains grave accent
+Output#French#Probability#1.0
+16#Does not contain grave accent
+Question#17#ilQ
+17#Contains "il"
+Output#French#Probability#1.0
+17#Does not contain "il"
+Output#Spanish#Probability#1.0
+15#Does not contain "y"
+Question#16#graveAccentQ
+16#Contains grave accent
+Output#French#Probability#1.0
+16#Does not contain grave accent
+Question#17#circumflexAccentQ
+17#Contains circumflex accent
+Output#French#Probability#1.0
+17#Does not contain circumflex accent
+Question#18#leQ
+18#Contains "le"
+Output#French#Probability#1.0
+18#Does not contain "le"
+Question#19#laQ
+19#Contains "la"
+Question#20#averageWordLengthQ
+20#Less than 3
+Output#Spanish#Probability#0.8421052631578947
+20#3
+Output#Spanish#Probability#0.8421052631578947
+20#4
+Question#21#ilQ
+21#Contains "il"
+Output#French#Probability#1.0
+21#Does not contain "il"
+Output#Spanish#Probability#0.6666666666666666
+20#5
+Question#21#unQ
+21#Contains "un"
+Output#Spanish#Probability#1.0
+21#Does not contain "un"
+Output#Spanish#Probability#0.8888888888888888
+20#6
+Output#Spanish#Probability#1.0
+20#7
+Output#Spanish#Probability#0.8421052631578947
+20#8
+Output#Spanish#Probability#0.8421052631578947
+20#More than 8
+Output#Spanish#Probability#0.8421052631578947
+19#Does not contain "la"
+Question#20#ilQ
+20#Contains "il"
+Output#French#Probability#1.0
+20#Does not contain "il"
+Question#21#averageWordLengthQ
+21#Less than 3
+Output#French#Probability#0.5614035087719298
+21#3
+Output#French#Probability#1.0
+21#4
+Question#22#ÒQ
+22#Contains "Ò"
+Output#Spanish#Probability#1.0
+22#Does not contain "Ò"
+Question#23#unQ
+23#Contains "un"
+Output#Spanish#Probability#0.6666666666666666
+23#Does not contain "un"
+Output#French#Probability#0.7222222222222222
+21#5
+Question#22#unQ
+22#Contains "un"
+Output#Spanish#Probability#0.75
+22#Does not contain "un"
+Output#French#Probability#0.5
+21#6
+Question#22#duQ
+22#Contains "du"
+Output#French#Probability#1.0
+22#Does not contain "du"
+Output#French#Probability#0.5555555555555556
+21#7
+Output#French#Probability#0.5614035087719298
+21#8
+Output#French#Probability#0.5614035087719298
+21#More than 8
+Output#French#Probability#0.5614035087719298
+14#Does not contain "que"
+Question#15#nonQ
+15#Contains "non"
+Question#16#leQ
+16#Contains "le"
+Question#17#averageWordLengthQ
+17#Less than 3
+Output#Italian#Probability#0.9090909090909091
+17#3
+Output#Italian#Probability#0.9090909090909091
+17#4
+Output#Italian#Probability#1.0
+17#5
+Question#18#laQ
+18#Contains "la"
+Output#Italian#Probability#1.0
+18#Does not contain "la"
+Output#French#Probability#0.5
+17#6
+Output#Italian#Probability#1.0
+17#7
+Output#Italian#Probability#1.0
+17#8
+Output#Italian#Probability#0.9090909090909091
+17#More than 8
+Output#Italian#Probability#0.9090909090909091
+16#Does not contain "le"
+Output#Italian#Probability#1.0
+15#Does not contain "non"
+Question#16#istQ
+16#Contains "ist"
+Output#German#Probability#1.0
+16#Does not contain "ist"
+Question#17#averageWordLengthQ
+17#Less than 3
+Output#German#Probability#0.35592185592185593
+17#3
+Question#18#ilQ
+18#Contains "il"
+Output#French#Probability#1.0
+18#Does not contain "il"
+Question#19#graveAccentQ
+19#Contains grave accent
+Output#Italian#Probability#1.0
+19#Does not contain grave accent
+Question#20#yQ
+20#Contains "y"
+Question#21#unQ
+21#Contains "un"
+Output#French#Probability#1.0
+21#Does not contain "un"
+Output#Spanish#Probability#1.0
+20#Does not contain "y"
+Output#English#Probability#1.0
+17#4
+Question#18#dasQ
+18#Contains "das"
+Output#German#Probability#1.0
+18#Does not contain "das"
+Question#19#unQ
+19#Contains "un"
+Question#20#yQ
+20#Contains "y"
+Output#Spanish#Probability#1.0
+20#Does not contain "y"
+Question#21#circumflexAccentQ
+21#Contains circumflex accent
+Output#French#Probability#1.0
+21#Does not contain circumflex accent
+Question#22#graveAccentQ
+22#Contains grave accent
+Output#French#Probability#0.6666666666666666
+22#Does not contain grave accent
+Question#23#leQ
+23#Contains "le"
+Output#Spanish#Probability#1.0
+23#Does not contain "le"
+Question#24#ilQ
+24#Contains "il"
+Output#Italian#Probability#0.8333333333333334
+24#Does not contain "il"
+Output#Italian#Probability#1.0
+19#Does not contain "un"
+Question#20#leQ
+20#Contains "le"
+Question#21#ilQ
+21#Contains "il"
+Output#French#Probability#1.0
+21#Does not contain "il"
+Question#22#laQ
+22#Contains "la"
+Output#French#Probability#1.0
+22#Does not contain "la"
+Question#23#circumflexAccentQ
+23#Contains circumflex accent
+Output#French#Probability#1.0
+23#Does not contain circumflex accent
+Question#24#duQ
+24#Contains "du"
+Output#French#Probability#1.0
+24#Does not contain "du"
+Output#French#Probability#0.5
+20#Does not contain "le"
+Question#21#laQ
+21#Contains "la"
+Question#22#yQ
+22#Contains "y"
+Question#23#graveAccentQ
+23#Contains grave accent
+Output#French#Probability#1.0
+23#Does not contain grave accent
+Output#Spanish#Probability#1.0
+22#Does not contain "y"
+Output#Italian#Probability#0.6
+21#Does not contain "la"
+Question#22#graveAccentQ
+22#Contains grave accent
+Question#23#ilQ
+23#Contains "il"
+Output#Italian#Probability#0.75
+23#Does not contain "il"
+Output#Italian#Probability#0.8571428571428571
+22#Does not contain grave accent
+Question#23#ilQ
+23#Contains "il"
+Question#24#yQ
+24#Contains "y"
+Output#French#Probability#1.0
+24#Does not contain "y"
+Output#French#Probability#0.7142857142857143
+23#Does not contain "il"
+Question#24#nichtQ
+24#Contains "nicht"
+Output#German#Probability#1.0
+24#Does not contain "nicht"
+Question#25#beQ
+25#Contains "be"
+Output#English#Probability#1.0
+25#Does not contain "be"
+Question#26#ichQ
+26#Contains "ich"
+Output#German#Probability#1.0
+26#Does not contain "ich"
+Question#27#circumflexAccentQ
+27#Contains circumflex accent
+Output#French#Probability#1.0
+27#Does not contain circumflex accent
+Question#28#yQ
+28#Contains "y"
+Output#Spanish#Probability#1.0
+28#Does not contain "y"
+Output#English#Probability#0.5079365079365079
+17#5
+Question#18#circumflexAccentQ
+18#Contains circumflex accent
+Output#French#Probability#1.0
+18#Does not contain circumflex accent
+Question#19#dasQ
+19#Contains "das"
+Output#German#Probability#1.0
+19#Does not contain "das"
+Question#20#yQ
+20#Contains "y"
+Question#21#graveAccentQ
+21#Contains grave accent
+Output#French#Probability#1.0
+21#Does not contain grave accent
+Question#22#ilQ
+22#Contains "il"
+Output#French#Probability#1.0
+22#Does not contain "il"
+Output#Spanish#Probability#1.0
+20#Does not contain "y"
+Question#21#ilQ
+21#Contains "il"
+Question#22#leQ
+22#Contains "le"
+Output#French#Probability#1.0
+22#Does not contain "le"
+Question#23#unQ
+23#Contains "un"
+Output#Italian#Probability#1.0
+23#Does not contain "un"
+Output#Italian#Probability#0.9111111111111111
+21#Does not contain "il"
+Question#22#laQ
+22#Contains "la"
+Question#23#ÒQ
+23#Contains "Ò"
+Output#Spanish#Probability#1.0
+23#Does not contain "Ò"
+Question#24#unQ
+24#Contains "un"
+Output#Italian#Probability#0.42857142857142855
+24#Does not contain "un"
+Question#25#duQ
+25#Contains "du"
+Output#French#Probability#1.0
+25#Does not contain "du"
+Output#Italian#Probability#0.6111111111111112
+22#Does not contain "la"
+Question#23#unQ
+23#Contains "un"
+Question#24#duQ
+24#Contains "du"
+Output#French#Probability#1.0
+24#Does not contain "du"
+Output#Italian#Probability#0.6363636363636364
+23#Does not contain "un"
+Question#24#graveAccentQ
+24#Contains grave accent
+Question#25#leQ
+25#Contains "le"
+Output#French#Probability#0.625
+25#Does not contain "le"
+Output#Italian#Probability#0.7368421052631579
+24#Does not contain grave accent
+Question#25#leQ
+25#Contains "le"
+Output#French#Probability#0.5833333333333334
+25#Does not contain "le"
+Question#26#ichQ
+26#Contains "ich"
+Output#German#Probability#1.0
+26#Does not contain "ich"
+Question#27#nichtQ
+27#Contains "nicht"
+Output#German#Probability#1.0
+27#Does not contain "nicht"
+Question#28#beQ
+28#Contains "be"
+Output#English#Probability#1.0
+28#Does not contain "be"
+Output#German#Probability#0.37119113573407203
+17#6
+Question#18#yQ
+18#Contains "y"
+Output#Spanish#Probability#1.0
+18#Does not contain "y"
+Question#19#duQ
+19#Contains "du"
+Output#French#Probability#1.0
+19#Does not contain "du"
+Question#20#unQ
+20#Contains "un"
+Output#Italian#Probability#0.75
+20#Does not contain "un"
+Question#21#laQ
+21#Contains "la"
+Question#22#ilQ
+22#Contains "il"
+Output#Italian#Probability#1.0
+22#Does not contain "il"
+Output#Italian#Probability#0.75
+21#Does not contain "la"
+Question#22#circumflexAccentQ
+22#Contains circumflex accent
+Output#French#Probability#1.0
+22#Does not contain circumflex accent
+Question#23#graveAccentQ
+23#Contains grave accent
+Question#24#leQ
+24#Contains "le"
+Output#French#Probability#0.75
+24#Does not contain "le"
+Question#25#ilQ
+25#Contains "il"
+Output#Italian#Probability#0.75
+25#Does not contain "il"
+Output#Italian#Probability#0.5555555555555556
+23#Does not contain grave accent
+Question#24#ilQ
+24#Contains "il"
+Output#Italian#Probability#0.9333333333333333
+24#Does not contain "il"
+Question#25#leQ
+25#Contains "le"
+Output#Italian#Probability#0.8421052631578947
+25#Does not contain "le"
+Question#26#dasQ
+26#Contains "das"
+Output#German#Probability#1.0
+26#Does not contain "das"
+Output#German#Probability#0.5514018691588785
+17#7
+Question#18#ilQ
+18#Contains "il"
+Output#Italian#Probability#1.0
+18#Does not contain "il"
+Question#19#graveAccentQ
+19#Contains grave accent
+Question#20#duQ
+20#Contains "du"
+Output#French#Probability#1.0
+20#Does not contain "du"
+Question#21#laQ
+21#Contains "la"
+Output#Italian#Probability#1.0
+21#Does not contain "la"
+Question#22#unQ
+22#Contains "un"
+Output#Italian#Probability#1.0
+22#Does not contain "un"
+Output#Italian#Probability#0.75
+19#Does not contain grave accent
+Question#20#unQ
+20#Contains "un"
+Output#Italian#Probability#1.0
+20#Does not contain "un"
+Question#21#duQ
+21#Contains "du"
+Output#French#Probability#1.0
+21#Does not contain "du"
+Question#22#laQ
+22#Contains "la"
+Output#Italian#Probability#1.0
+22#Does not contain "la"
+Question#23#circumflexAccentQ
+23#Contains circumflex accent
+Output#French#Probability#1.0
+23#Does not contain circumflex accent
+Question#24#dasQ
+24#Contains "das"
+Output#German#Probability#1.0
+24#Does not contain "das"
+Output#German#Probability#0.7236842105263158
+17#8
+Question#18#laQ
+18#Contains "la"
+Output#Italian#Probability#1.0
+18#Does not contain "la"
+Question#19#circumflexAccentQ
+19#Contains circumflex accent
+Output#French#Probability#1.0
+19#Does not contain circumflex accent
+Question#20#ilQ
+20#Contains "il"
+Output#Italian#Probability#1.0
+20#Does not contain "il"
+Question#21#dasQ
+21#Contains "das"
+Output#German#Probability#1.0
+21#Does not contain "das"
+Output#German#Probability#0.7567567567567568
+17#More than 8
+Question#18#graveAccentQ
+18#Contains grave accent
+Output#Italian#Probability#1.0
+18#Does not contain grave accent
+Question#19#unQ
+19#Contains "un"
+Output#Italian#Probability#1.0
+19#Does not contain "un"
+Output#German#Probability#0.9285714285714286
+complexLanguage.py

@@ -1,0 +1,96 @@
+Question#1#temperatureQ
+1#Less than 20 degrees
+Question#2#rainQ
+2#Raining
+Output#Freezing#Probability#1.0
+2#Not Raining
+Output#Cold#Probability#1.0
+1#Between 20 and 40 degrees
+Question#2#sunQ
+2#Sunny
+Question#3#windQ
+3#Less than 4 mph
+Question#4#humidQ
+4#High Humidity
+Output#Cold#Probability#1.0
+4#Low Humidity
+Output#Cold#Probability#0.5
+3#Between 4 and 8 mph
+Question#4#humidQ
+4#High Humidity
+Output#Cold#Probability#0.5
+4#Low Humidity
+Output#Warm#Probability#0.7142857142857143
+3#Over 8 mph
+Output#Cold#Probability#1.0
+2#No sun
+Question#3#humidQ
+3#High Humidity
+Output#Freezing#Probability#0.6470588235294118
+3#Low Humidity
+Output#Freezing#Probability#0.5
+1#Between 40 and 60 degrees
+Question#2#rainQ
+2#Raining
+Question#3#windQ
+3#Less than 4 mph
+Question#4#humidQ
+4#High Humidity
+Output#Warm#Probability#1.0
+4#Low Humidity
+Output#Warm#Probability#0.6666666666666666
+3#Between 4 and 8 mph
+Question#4#humidQ
+4#High Humidity
+Output#Warm#Probability#0.6666666666666666
+4#Low Humidity
+Output#Cold#Probability#0.8
+3#Over 8 mph
+Output#Cold#Probability#0.8461538461538461
+2#Not Raining
+Question#3#windQ
+3#Less than 4 mph
+Output#Warm#Probability#1.0
+3#Between 4 and 8 mph
+Output#Warm#Probability#1.0
+3#Over 8 mph
+Question#4#sunQ
+4#Sunny
+Output#Warm#Probability#1.0
+4#No sun
+Output#Cold#Probability#1.0
+1#Between 60 and 80 degrees
+Question#2#windQ
+2#Less than 4 mph
+Question#3#humidQ
+3#High Humidity
+Question#4#rainQ
+4#Raining
+Output#Warm#Probability#1.0
+4#Not Raining
+Output#Warm#Probability#0.6666666666666666
+3#Low Humidity
+Output#Hot#Probability#1.0
+2#Between 4 and 8 mph
+Question#3#sunQ
+3#Sunny
+Question#4#humidQ
+4#High Humidity
+Output#Hot#Probability#0.5
+4#Low Humidity
+Output#Hot#Probability#1.0
+3#No sun
+Question#4#humidQ
+4#High Humidity
+Question#5#rainQ
+5#Raining
+Output#Warm#Probability#0.75
+5#Not Raining
+Output#Warm#Probability#1.0
+4#Low Humidity
+Output#Warm#Probability#1.0
+2#Over 8 mph
+Output#Warm#Probability#1.0
+1#Over 80 degrees
+Output#Hot#Probability#1.0
+simpleWeather.py

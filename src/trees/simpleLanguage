@@ -1,0 +1,18 @@
+Question#1#notQ
+1#Contains "not"
+Output#NoTest#Probability#1.0
+1#Does not contain "not"
+Question#2#cantQ
+2#Contains "can't"
+Output#NoTest#Probability#1.0
+2#Does not contain "can't"
+Question#3#willQ
+3#Contains "will"
+Output#Test#Probability#1.0
+3#Does not contain "will"
+Question#4#beQ
+4#Contains "be"
+Output#NoTest#Probability#0.5233160621761658
+4#Does not contain "be"
+Output#Test#Probability#1.0
+simpleLanguage.py
