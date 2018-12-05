@@ -21,7 +21,7 @@ def buildTree(name, examples, questions, tolerance, printbool):
         name - The name of the tree
         examples - the file to get the examples from
         questions - the file to get the questions from
-        tolerance - the importance tolerance for tree questions
+        tolerance - the information gain tolerance for tree questions
         printbool - whether or not to print the tree
     
     Returns:
@@ -109,7 +109,7 @@ def decisionTreeLearning(examples, questions, parentExamples, value, tolerance):
         questions - the remaining questions, an array of functions that take an array of strings and return a string
         parentExamples - the previous branche's examples in case there are no examples left at this point, None if first root
         value - the value of this branch from the previous branche's question
-        tolerance - the minimum importance value of a question to be included in the tree at a particular point
+        tolerance - the minimum information gain value of a question to be included in the tree at a particular point
         
     Returns:
         The root node of a decision tree
@@ -140,10 +140,10 @@ def decisionTreeLearning(examples, questions, parentExamples, value, tolerance):
         else:
             # If none of the above conditions are true find the best question and create a branch
             
-            bestQuestion = max(questions, key=lambda x: importance(x, examples))
+            bestQuestion = max(questions, key=lambda x: informationGain(x, examples))
             
             # If the best question is below the tolerance value return the most common outcome
-            if importance(bestQuestion, examples) < tolerance:
+            if informationGain(bestQuestion, examples) < tolerance:
                 return makeLeafFromExamples(examples, value)
             
             outcomes = bestQuestion(None)
@@ -208,17 +208,17 @@ def mostCommonOutcome(examples):
     values = list(outcomes.values())
     return keys[values.index(max(values))]
 
-def importance(question, examples):
+def informationGain(question, examples):
     '''
-    Finds the importance of the given question in sorting the given examples.
-    Importance equation and explanation can be found in docs.
+    Finds the information gain of the given question in sorting the given examples.
+    Information gain equation and explanation can be found in docs.
     
     Arguments:
-        question - the question to find the importance of
+        question - the question to find the information gain of
         examples - the examples the question will sort
         
     Returns:
-        The importance of the question, a number from 0 to 1
+        The information of the question, a number from 0 to 1
     ''' 
     
     exOutcomes = {}
@@ -262,7 +262,7 @@ def importance(question, examples):
 
 def entropy(probX):
     '''
-    Probability entropy equation for use with importance equation, more info in docs.
+    Probability entropy equation for use with information gain equation, more info in docs.
     Note that this scales the entropy by number of outcomes so it will always return
     between 1 and 0.
     
