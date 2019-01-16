@@ -241,7 +241,7 @@ class Feedback:
                 elif isinstance(self.results, str):
                 
                     window = Toplevel(self.master, takefocus=True)
-                    window.title("Tree: " + self.entry_treename.get())
+                    window.title("Tree: " + self.combobox_treefile.get())
                     window.geometry('740x620+850+100')
                     
                     Grid.rowconfigure(window, 0, weight = 1)
