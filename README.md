@@ -25,6 +25,22 @@ There are several examples given that can further clarify how to create files fo
 
 Additionally there is a tolerance value that is used by the tree building algorithm that can be adjusted. This tolerance value must be between 0 and 1, non-inclusive, and will determine the minimum information gain from each function before the algorithm will skip them. This value can significantly mitigate the tendency of overfitting in complex decision trees and should be adjusted according to the amount of functions and the size of the training data set to yield the best tree possible in a reasonable amount of time. 
 
+## UI
+
+### Main Window
+![Main Window](images/mainUIwindow.PNG)
+
+### Example Tree
+![Example Tree](images/complexLanguageTreeSample.PNG)
+
+### Example Results Full
+![Example Results Full](images/complexLanguageResultsSampleFull.PNG)
+
+### Example Results Output Only
+![Example Results Output Only](images/complexLanguageResultsSampleOutputOnly.PNG)
+
+## Usage
+
 More information regarding the use of the UI can be found by clicking on the Help button. The program can be run from the command line by navigating to the src folder and using the command:
 
     py -3 main.py
